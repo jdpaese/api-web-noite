@@ -1,0 +1,32 @@
+.logo {
+    width: 500px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.card {
+    border: 2px solid black;
+    padding: 20px;
+    gap: 25px;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+    background-image: url(/public/portal.jpg) ;
+}
+
+
+.wrapcards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
